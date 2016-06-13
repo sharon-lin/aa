@@ -5,7 +5,7 @@ public class Line extends Turnstile{
    float _Y;
    int _temp;
    int _speed;
-   int _currPos;
+   int _currPos = 1;
    int _rectLength;
   
   public Line(int num){
@@ -27,7 +27,7 @@ public class Line extends Turnstile{
   public void appear(int speed){
     pushMatrix();
     rotate((_num*360)/(2*PI));
-    rotate((PI/256)*speed);
+    rotate(PI/256*speed);
     rect(0, 0, 1, 140);
     ellipse(0,140,20,20);
     fill(250);
@@ -59,7 +59,7 @@ public class Line extends Turnstile{
   public void rotation(){
     pushMatrix();
     rotate(-_currPos*(PI/256));
-    rotate(PI/256);
+    rotate(PI/256*speed);
     rect(0, 0, 1, _rectLength);
     ellipse(0,_rectLength,20,20);
     fill(250);
