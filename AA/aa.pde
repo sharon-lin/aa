@@ -102,6 +102,10 @@ void draw(){
     int _temp = 0;
     int _temp2;
     
+    /*
+    *
+    * NOTE: The rotation function does not seem to be working. We are unsure as to why.
+    */
     for (Line i: lineList){
     //  i.appear(_temp);
       _temp++;
@@ -192,7 +196,7 @@ void draw(){
 
   scene = 2;
   loop();
-
+  delay(2000);
   }
   
   /*
@@ -216,7 +220,9 @@ void draw(){
    }
    
    scene = 5;
+   
    loop();
+   delay(1000);
   }
   
   /*
@@ -279,8 +285,10 @@ void keyPressed(){
            }
                  
          }
+         if (amt >0){
          pelletList.remove(amt-1);
          amt--;
+         }
          score++;
          Line a = new Line(amt-level-score);
          lineList.add(a);
