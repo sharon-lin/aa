@@ -4,7 +4,7 @@ This Processing app is a clone of the popular aa game on Android and iOS. It gen
 
 ## Team Members
 
-Sharon Lin, Liana Pang, Edmond Lam
+Sharon Lin, Lianna Pang, Edmond Lam
 
 ## Contributions
 
