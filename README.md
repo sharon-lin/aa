@@ -1,6 +1,6 @@
 # aa
 
-This Procesing app is a clone of the popular aa game on Android and iOS. It generates rotating circles onto which users must append nodes without touching existing nodes.
+This Processing app is a clone of the popular aa game on Android and iOS. It generates rotating circles onto which users must append nodes without touching existing nodes.
 
 ## Team Members
 
