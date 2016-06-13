@@ -95,7 +95,7 @@ void draw(){
   */
   else if (scene == 1){
     noStroke(); //no outline
-    background(250); //black background
+    background(237,234,221); //cream background
     fill(0);
     translate(width/2, height/2); //translates all objects to the center of the screen
     
@@ -106,6 +106,7 @@ void draw(){
     //  i.appear(_temp);
       _temp++;
       i.rotation();
+      
     }
     
     //static center circle
@@ -145,7 +146,7 @@ void draw(){
     loop();
     background(237,234,221);
     textSize(60);
-    fill(11,212,31);
+    fill(255,0,0);
     text("FAIL!", 80,150);
     textSize(40);
     text("Try Again...", 80, 200);
